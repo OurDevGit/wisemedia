@@ -1,0 +1,89 @@
+.daron-label {
+	margin-top:30px;
+	border-left:2px solid #e43a3a;
+	padding:7px;
+	background-color:#f5f8f9;
+	color:#232020;
+	text-transform:uppercase;
+	text-align:center;
+}
+.coupon-code{	
+	padding: 10px;
+    margin: 10px;
+    background: #011f2d;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2em;
+    border: 1px dashed #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #558a9a, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px #aa3030;
+	text-align: center;
+}
+.background-box{
+	float: none;
+    border: 1px solid rgba(204, 204, 204, 0.68);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    padding: 8px;
+    overflow: hidden;
+    word-wrap: break-word;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.daron-btn {
+    margin-top:20px;
+	border:1px solid #F71735;
+	padding:8px;
+	background-color:#F71735;
+	color:#fff;
+	text-transform:uppercase;
+	text-align:center;
+	text-decoration: none;
+	font-weight: bold;
+    line-height: 1.8em;
+	box-shadow:2px 6px 7px rgba(0, 0, 0, 0.2)
+}
+.daron-btn2 {
+    margin-top:11px;
+	border:1px solid #00AE68;
+	padding:8px;
+	background-color:#00AE68;
+	color:#fff;
+	text-transform:uppercase;
+	text-align:center;
+	text-decoration: none;
+	font-weight: bold;
+    line-height: 1.2em;
+}
+.daron-btn div,
+.daron-btn2 div{
+    color: #fff;
+	text-decoration: none;
+}
+/* #21ABD6 */
+/* .daron-btn2:hover{
+    background : #000;
+} */
+.features-btn{ 
+	float: none;
+    border: 1px solid #00AE68;
+    padding: 10px;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin-top: 11px;
+    background-color: #00AE68;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}

@@ -1,0 +1,73 @@
+/*
+ Theme Name:   Bloglane
+ Theme URI:    https://awplife.com/wordpress-free-theme/bloglane/
+ Description:  Bloglane is awesome looking, minimal design theme which is specially designed for bloggers, newspapers or journalist writing. It as ideal for hobbyists, bloggers and people who simply want to share their thoughts online through blogs. It is easy to setup and comes with plenty of options for customization. Bloglane theme is very flexible and includes a attractive header area where you can add your own background image. This specially designed theme for blog has ability to showcase your blog posts in very simple and stunning way. The whole point of the theme is to put your content first, before anything else. Bloglane theme is recommended for anyone with a desire to get their feet wet with blogging or magazine writing. It offers a clean and fully responsive layout. It&#8217;s completely responsive for viewing on mobile devices such as tablets and phones. The code is clean so your blog will be quick and load fast with great page speed. Authors &amp; bloggers can easily create an attractive blog without the hassle and customize it according to their needs. It is designed for blogging so you can write about anything from food, travel, fashion, technology, lifestyle, products or any other category you select for your blog. Live Demo https://awplife.com/demo/bloglane/
+ Author:       A WP Life
+ Author URI:   https://awplife.com
+ Template:     daron
+ Version:      1.1.4
+ Tested up to: 5.5.1
+ Requires PHP: 5.4
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl.html
+ Tags:         blog, custom background, custom colors, custom header, custom logo, custom menu, e-commerce, featured image header, featured images, flexible header, full width template, one column, rtl language support, sticky post, theme options, threaded comments, translation ready, two columns, wide blocks
+ Text Domain:  bloglane
+*/
+
+/* Blog List CSS START
+------------------------------ */
+
+.blog-meta-box {
+	padding:30px 30px 0px 30px;
+}
+@media (min-width: 768px) {
+	.blog-img-box-l:after {
+		content: "";
+		border-color: #fff;
+		border-style: solid;
+		border-width: 14px 14px 14px 0px;
+		border-bottom-color: transparent!important;
+		border-top-color: transparent !important;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		margin-top: -14px;
+	}
+	.blog-img-box-r:after {
+		content: "";
+		border-color: #fff;
+		border-style: solid;
+		border-width: 14px 0px 14px 14px;
+		border-bottom-color: transparent!important;
+		border-top-color: transparent !important;
+		position: absolute;
+		top: 50%;
+		margin-top: -14px;
+	}
+}
+.blog-list-wrap {
+	float:left; 
+	background:#fff; 
+	margin-bottom:40px; 
+	box-shadow:0 0 1.25rem 0.3125rem rgba(34, 35, 36, 0.07);
+	min-width: 100%;
+	word-break: break-word;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.blog-list-desc, .blog-list-meta {
+		display:none;
+	}
+}
+.blog-img-box a img {
+	min-width:100%;
+}
+.blog-meta-box-wrap, .blog-img-box {
+	padding:0;
+}
+.blog-list-desc {
+	font-size:20px;
+}
+
+/* Blog List CSS END
+------------------------------ */
